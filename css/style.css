@@ -1,0 +1,14 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /**
+     * [box-sizing: borderbox]
+     * --------------------------------------------------------
+     * Permet d'ajouter des padding sans forcément devoir les 
+     * soustraires par la suite.
+     * --------------------------------------------------------
+     **/
+    font-family: 'Nunito', sans-serif;
+}
