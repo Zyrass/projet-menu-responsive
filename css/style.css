@@ -11,33 +11,26 @@
      * --------------------------------------------------------
      **/
 }
-
 body {
     font-family: 'Nunito', sans-serif;
 }
-
 .navigation {
     line-height: 50px;
     background-color: #2c3e50;
 }
-
 a {
     color: #fff;
     text-decoration: none;
 }
-
-.logo,
-nav {
+.logo, nav {
     display: inline-block;
     vertical-align: top;
 }
-
 .logo {
     font-size: 32px;
     width: 30%;
     padding-left: 15px;
 }
-
 nav {
     width: 70%;
     text-align: right;
