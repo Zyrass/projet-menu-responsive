@@ -36,3 +36,14 @@ nav {
     text-align: right;
     padding-right: 15px;
 }
+nav a { 
+    padding: 0 10px;
+    display: inline-block;
+    height: 50px;
+    transition: background-color .2s ease-in;
+    transition: border-bottom .2s ease;
+}
+nav a:hover {
+    background-color: #34495e;
+    border-bottom: 5px solid #7f8c8d;
+}
