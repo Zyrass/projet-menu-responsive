@@ -13,4 +13,5 @@ Au final ça devrait donner :
 
 - Je tiens à nouveau à remercier MR IMBERT pour cette formation très intéréssante.
 
-Cordialement Zyrass alias Alain GUILLON
+Cordialement <br />
+Zyrass alias **A**lain **GUILLON**
