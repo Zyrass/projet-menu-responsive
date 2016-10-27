@@ -1,9 +1,9 @@
 # Coder une navigation responsive
-<h2>Formation initialement créer part Sébastien **IMBERT** sur **Tuto.com**</h2><br />
+<h2>Formation initialement créer part <a href="http://fr.tuto.com/formateur/syddarta.htm">Sébastien IMBERT</a> sur <a href="http://fr.tuto.com/">Tuto.com</a></h2><br />
 <q>Je vous invite à cliquez sur le lien ci-dessous. C'est là où vous pourrez vous procurrez cette formation !<br />
 http://fr.tuto.com/css/coder-une-navigation-responsive-css,69261.html</q><br />
 
-Je n'ai pas la prétention de voler le travail de Mr **IMBERT** mais plutôt de rendre à disposition le rendu final pour des besoin personnel. Également, je renforce mon apprentissage de Git via cette formation.
+Je n'ai pas la prétention de voler le travail de <a href="http://fr.tuto.com/formateur/syddarta.htm">Mr IMBERT</a> mais plutôt de rendre à disposition le rendu final pour des besoin personnel. Également, je renforce mon apprentissage de Git via cette formation.
 <hr />
 # La navigation responsive nécessite plusieurs étapes<br />
 
@@ -25,7 +25,7 @@ Je n'ai pas la prétention de voler le travail de Mr **IMBERT** mais plutôt de 
 <hr />
 # Remerciement
 
-- Je tiens à nouveau à remercier MR **IMBERT** pour cette formation très intéréssante. Ainsi j'invite quiconque à se la procurer afin d'en apprendre plus sur cette réalisation et surtout mieux comprendre les lignes de code qui sont certes commenté mais moins explicite qu'une bonne vidéo commenté. 
+- Je tiens à nouveau à remercier <a href="http://fr.tuto.com/formateur/syddarta.htm">Mr IMBERT</a> pour cette formation très intéréssante. Ainsi j'invite quiconque à se la procurer afin d'en apprendre plus sur cette réalisation et surtout mieux comprendre les lignes de code qui sont certes commentés mais moins explicite qu'une bonne vidéo commenté. 
 <hr />
 
 Cordialement <br />
