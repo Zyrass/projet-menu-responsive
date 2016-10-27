@@ -12,7 +12,7 @@ Je n'ai pas la prétention de voler le travail de <a href="http://fr.tuto.com/fo
 **3° -** Créatoin de l'icône Burger<br />
 **4° -** La méthode toggleClass() en jQuery<br />
 **5° -** Position fixed et événements au scroll<br />
-**6° -** Remerciements et bonus<br />
+6° - Remerciements qui se réfèrera à son auteur et bonus<br />
 <hr />
 # L'auteur d'écrit très bien le rendu final en image<br />
 
