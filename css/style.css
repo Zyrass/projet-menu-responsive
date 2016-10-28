@@ -45,5 +45,84 @@ nav a {
 }
 nav a:hover {
     background-color: #34495e;
-    border-bottom: 5px solid #7f8c8d;
 }
+/**
+ * [@media screen] --> Largeur max 768px (Tablette)
+ * --------------------------------------------------------
+ * Max-width: 768px, permet de définir qu'en dessous ou égale
+ * à cette largeur d'écran, nous spécifions un certain nombre
+ * de propriétés/valeurs qui permettront aux navigateur
+ * d'adapter l'affichage selon les critères spécifié dans le code 
+ * --------------------------------------------------------
+ **/
+@media screen and (max-width: 768px) {
+    .navigation { 
+        background-color: #7f8c8d;
+    }
+    .logo, nav {
+        display: block;
+        width: 100%;
+    }
+    nav {
+        text-align: center;
+    }
+    nav a {
+        display: inline-block;
+        width: 50%;
+    }
+    nav a:hover {
+        background-color: #2c3e50;
+    }
+    .navigation, nav a:hover {
+        /**
+         * [Informartion perso]
+         * --------------------------------------------------------
+         * La transition qui suit, me sert uniquement à animé le  
+         * changement de couleur lorsque nous redimmentionnons à 
+         * la main la taille de votre page web ainsi que lorsqu'on
+         * survole un lien.
+         **/
+        transition: background-color 2s ease;
+    }
+}
+
+/**
+ * [@media screen] --> Largeur max 425px (Téléphone)
+ * --------------------------------------------------------
+ * Max-width: 768px, permet de définir qu'en dessous ou égale
+ * à cette largeur d'écran, nous spécifions un certain nombre
+ * de propriétés/valeurs qui permettront aux navigateur
+ * d'adapter l'affichage selon les critères spécifié dans le code 
+ * --------------------------------------------------------
+ **/
+ @media screen and (max-width: 425px) {
+    .navigation {
+        background-color: #fff;
+        border-bottom: 1px solid #2c3e50;
+
+    }
+    .logo, nav, nav a {
+        display: block;
+        width: 100%;
+    }
+    .logo a, nav a {
+        color: #2c3e50;
+    }
+    nav a:hover {
+        background-color: #2c3e50;
+        transition: background-color 1s ease 2s;
+        color: #fff;
+        transition: color 4s ease 2s;
+    }
+    .navigation, nav a:hover {
+        /**
+         * [Informartion perso]
+         * --------------------------------------------------------
+         * La transition qui suit, me sert uniquement à animé le  
+         * changement de couleur lorsque nous redimmentionnons à 
+         * la main la taille de votre page web ainsi que lorsqu'on
+         * survole un lien.
+         **/
+        transition: background-color 2s ease;
+    }
+ }
