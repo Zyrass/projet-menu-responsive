@@ -45,8 +45,8 @@ nav a {
 nav a:hover {
     background-color: #34495e;
         transition: background-color .1s linear;
-    border-bottom: 10px solid #7f8c8d;
-        transition: border-bottom .1s linear .1s;
+    border-bottom: 5px solid #CCC;
+        transition: border-bottom .2s linear; 
 }
 /**
  * [@media screen] --> Largeur max 768px (Tablette)
@@ -57,7 +57,7 @@ nav a:hover {
  * d'adapter l'affichage selon les critères spécifié dans le code 
  * --------------------------------------------------------
  **/
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
     .navigation { 
         background-color: #7f8c8d;
     }
@@ -67,6 +67,8 @@ nav a:hover {
     }
     nav {
         text-align: center;
+        padding-right: 0px;
+        vertical-align: top;
     }
     nav a {
         display: inline-block;
@@ -74,6 +76,11 @@ nav a:hover {
     }
     nav a:hover {
         background-color: #2c3e50;
+        border-bottom: none;
+        border-left: 2px solid #fff;
+            transition: border-bottom .2s linear .2s;
+        border-right: 2px solid #fff;
+            transition: border-bottom .2s linear .2s;
     }
     .navigation, nav a:hover {
         /**
@@ -99,22 +106,28 @@ nav a:hover {
  **/
  @media screen and (max-width: 425px) {
     .navigation {
-        background-color: #fff;
+        background-color: #DDD;
         border-bottom: 1px solid #2c3e50;
-
     }
     .logo, nav, nav a {
         display: block;
         width: 100%;
+        padding-right: 0;
     }
     .logo a, nav a {
-        color: #2c3e50;
+        color: #555;
+    }
+    nav a {
+        text-align: center;
     }
     nav a:hover {
         background-color: #2c3e50;
             transition: background-color 1s ease 2s;
         color: #fff;
             transition: color 4s ease 2s;
+        border-bottom: none;
+        border-top: 2px solid #fff;
+            transition: color 2s linear .1s
     }
     .navigation, nav a:hover {
         /**
