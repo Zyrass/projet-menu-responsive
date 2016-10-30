@@ -3,7 +3,9 @@
 <q>Je vous invite à cliquez sur le lien ci-dessous. C'est là où vous pourrez vous procurrez cette formation !<br />
 http://fr.tuto.com/css/coder-une-navigation-responsive-css,69261.html</q><br />
 
-Je n'ai pas la prétention de voler le travail de <a href="http://fr.tuto.com/formateur/syddarta.htm">Mr IMBERT</a> mais plutôt de rendre à disposition le rendu final pour des besoins personnel. Également, je renforce mon apprentissage de Git via cette formation.
+Je n'ai pas la prétention de voler le travail de <a href="http://fr.tuto.com/formateur/syddarta.htm">Mr IMBERT</a> mais plutôt de rendre à disposition le rendu final pour des besoins personnel. Également, je renforce mon apprentissage de Git via cette formation.<br />
+<blockquote>Le tutoriel en vidéo ne sera en aucun cas disponible ici. Il faut savoir que ce que propose MR IMBERT sera légèrement différent ici dans le sens ou je le modifie à ma sauce.<br />
+<cite>Alain Guillon</cite></blockquote>
 <hr />
 # La navigation responsive nécessite plusieurs étapes<br />
 
