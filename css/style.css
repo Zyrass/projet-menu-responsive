@@ -66,7 +66,7 @@ button:focus {
 }
 #icon-menu span {
     position: absolute;
-    width: 100%; /* Étant en absolute ça revient à dire que la largeur est à 35px */
+    width: 100%; /* Étant en absolute ça revient à dire que la hauteur est à 35px */
     height: 4px;
     border-radius: 4px;
     background-color: #fff;
@@ -81,7 +81,7 @@ button:focus {
 #icon-menu span:nth-child(3) {
     top: 25px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
     #icon-menu {
         display: none;
     }
@@ -102,6 +102,12 @@ button:focus {
  * d'adapter l'affichage selon les critères spécifié dans le code 
  * --------------------------------------------------------
  **/
+@media screen and (max-width: 768px){
+    nav {
+        height: 0px;
+        overflow: hidden;
+    }
+}
 @media screen and (min-width: 426px) and (max-width: 768px) {
     .navigation { 
         background-color: #7f8c8d;
@@ -138,8 +144,10 @@ button:focus {
          **/
         transition: background-color 2s ease;
     }
+    .open-menu {
+        height: 150px;
+    }
 }
-
 /**
  * [@media screen] --> Largeur max 425px (Téléphone)
  * --------------------------------------------------------
@@ -185,4 +193,9 @@ button:focus {
          **/
         transition: background-color 2s ease;
     }
+    .open-menu {
+        height: 300px;
+    }
+
  }
+
