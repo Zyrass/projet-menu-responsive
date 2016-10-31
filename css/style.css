@@ -82,6 +82,23 @@ button:focus {
 #icon-menu span:nth-child(3) {
     top: 25px;
 }
+
+#icon-menu.anim-icon span:nth-child(1) {
+    transform: rotate(45deg);
+    top: 12px;
+}
+#icon-menu.anim-icon span:nth-child(2) {
+    opacity: 0;
+}
+#icon-menu.anim-icon span:nth-child(3){
+    transform: rotate(-45deg);
+    top: 12px;
+}
+@media screen and (min-width: 1px) and (max-width: 768px){
+    #icon-menu.anim-icon span {
+        transition: all .2s ease;
+    }
+}
 @media screen and (min-width: 769px) {
     #icon-menu {
         display: none;

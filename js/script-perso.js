@@ -18,6 +18,10 @@ $(document).ready(function(){ // Ouverture du script une fois que le DOM est cha
     });
 
 
+    $('#icon-menu').on('click', function(){
+        $('#icon-menu').toggleClass('anim-icon');
+    });
+
 
 
 }); // Fermeture du script
