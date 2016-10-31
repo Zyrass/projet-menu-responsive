@@ -12,8 +12,9 @@
 $(document).ready(function(){ // Ouverture du script une fois que le DOM est chargé
 
     $('#icon-menu').on('click', function(){
-        // .toggleClass permet d'ajouter ou d'enlever une Class
         $('nav').toggleClass('open-menu');
+        // .toggleClass permet d'ajouter ou d'enlever une Class 
+        // Lla class "open-menu" permet dans le css de modifier cette class selon le device
     });
 
 
