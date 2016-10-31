@@ -36,6 +36,7 @@ nav {
     width: 70%;
     text-align: right;
     padding-right: 15px;
+    transition: height .2s ease;
 }
 nav a { 
     padding: 0 10px;
@@ -144,7 +145,7 @@ button:focus {
          **/
         transition: background-color 2s ease;
     }
-    .open-menu {
+    nav.open-menu {
         height: 150px;
     }
 }
@@ -193,7 +194,7 @@ button:focus {
          **/
         transition: background-color 2s ease;
     }
-    .open-menu {
+    nav.open-menu {
         height: 300px;
     }
 
