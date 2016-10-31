@@ -94,6 +94,33 @@ button:focus {
     transform: rotate(-45deg);
     top: 12px;
 }
+section {
+    background-color: #000;
+    margin: 5px;
+}
+
+section article {
+    background-color: #DDD;
+}
+section article h1 {
+    font-size: 1.6em;
+    text-align: center;
+    padding: 5px;
+    color: #2c3e50;
+}
+section article p {
+    padding: 20px;
+    line-height: 1.5em;
+}
+section article p::first-letter {
+    font-size: 3em;
+    color: #2c3e50;
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+
+
 @media screen and (min-width: 1px) and (max-width: 768px){
     #icon-menu.anim-icon span {
         transition: all .2s ease;
@@ -102,6 +129,17 @@ button:focus {
 @media screen and (min-width: 769px) {
     #icon-menu {
         display: none;
+    }
+    .navigation {
+        transition: all .2s ease;
+    }
+    .navigation.scroll {
+    position: fixed;
+    width: 100%;
+    background-color: #BBAA00;
+    height: 40px;
+    line-height: 40px;
+    box-shadow: 0 5px 30px #000;
     }
 }
 @media screen and (max-width: 425px) {

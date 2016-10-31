@@ -23,5 +23,15 @@ $(document).ready(function(){ // Ouverture du script une fois que le DOM est cha
     });
 
 
+    $(window).scroll(function(){
+        if($(window).scrollTop() > 10) {
+            $('.navigation').addClass('scroll');
+        } 
+
+        else if($(window).scrollTop() <= 10) {
+            $('.navigation').removeClass('scroll');
+        }
+
+    });
 
 }); // Fermeture du script
