@@ -7,7 +7,8 @@ Je n'ai pas la prétention de voler le travail de <a href="http://fr.tuto.com/fo
 <blockquote>Le tutoriel en vidéo ne sera en aucun cas disponible ici. Il faut savoir que ce que propose MR IMBERT sera légèrement différent ici dans le sens ou je le modifie à ma sauce.<br />
 <cite>Alain Guillon</cite></blockquote>
 <hr />
-# La navigation responsive nécessite plusieurs étapes<br />
+
+## La navigation responsive nécessite plusieurs étapes<br />
 
 **1° -** Construction de la navigation<br />
 **2° -** Responsive et media queries<br />
@@ -16,7 +17,8 @@ Je n'ai pas la prétention de voler le travail de <a href="http://fr.tuto.com/fo
 **5° -** Position fixed et événements au scroll<br />
 6° - Remerciements qui se réfèrera à son auteur et bonus<br />
 <hr />
-# L'auteur d'écrit très bien le rendu final en image<br />
+
+## L'auteur d'écrit très bien le rendu final en image<br />
 
 ***Image 1***<br />
 <img src="http://fr-images.tuto.net/gallery/69/69261/10523071.jpg" /> <br />
@@ -25,7 +27,8 @@ Je n'ai pas la prétention de voler le travail de <a href="http://fr.tuto.com/fo
 ***Image 3***
 <img src="http://fr-images.tuto.net/gallery/69/69261/10523091.jpg" /> <br />
 <hr />
-# Remerciement
+
+## Remerciement
 
 - Je tiens à nouveau à remercier <a href="http://fr.tuto.com/formateur/syddarta.htm">Mr IMBERT</a> pour cette formation très intéréssante. Ainsi j'invite quiconque à se la procurer afin d'en apprendre plus sur cette réalisation et surtout mieux comprendre les lignes de code qui sont certes commentés mais moins explicite qu'une bonne vidéo commenté. 
 <hr />
